@@ -8,10 +8,10 @@
 </head>
 <body>
     <header>
-        <h1 class="logo">Tsuki Food</h1>
+        <h1 class="logo"><span>Tsuki</span> Food</h1>
         <nav>
             <ul class="ul-nav">
-                <li class="li-nav"><a href="#" class="a-nav">Home</a></li>
+                <li class="li-nav"><a href="#" id="active" class="a-nav">Home</a></li>
                 <li class="li-nav"><a href="#" class="a-nav">About</a></li>
                 <li class="li-nav"><a href="#" class="a-nav">Menu</a></li>
                 <li class="li-nav"><a href="#" class="a-nav">Delivery</a></li>
@@ -52,7 +52,7 @@
             <tr>
                 <th>Food</th>
                 <th>Price</th>
-                <th>Vegan Options:</th>
+                <th>Vegan Option:</th>
             </tr>
             <tr>
                 <td>Gyosa</td>
@@ -72,15 +72,15 @@
         </table>
     </section>
     <footer>
-        <h3 class="MH-footer"> MindHub Cohort N</h3>
-        <form action="show_data.html">
+        <h3 class="MH-footer"> MindHub <span>Cohort N</span></h3>
+        <form action="show_data.html" method="get" target="_blank" name="">
             <fieldset>
                 <legend>Have you ate here?</legend>
                 <label for="radio-yes">Yes<input id="radio-yes" type="radio"></label>
                 <label for="radio-no">No<input id="radio-no" type="radio"></label>
                 <br>
-                <label for="suscribe">Suscribe: <input id="suscribe" type="text"></label>
-                <input id="button" type="button" value="Send">
+                <label for="suscribe">Subscribe: <input id="suscribe" type="text"></label>
+                <input id="button" type="submit" value="Send">
             </fieldset>
         </form>
         <a id="mail" href="mailto:tsukifood@gmail.com">tsukifood@mh.com</a>
