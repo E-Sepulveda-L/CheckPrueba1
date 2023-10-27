@@ -17,11 +17,13 @@ img{
 header{
     padding: 1rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background-color: rgba(218, 57, 57, 0.795)
 }
 .logo{
+    min-width: 10rem;
     background-color: rgba(36, 221, 221, 0.63);
 }
 nav{
@@ -55,6 +57,7 @@ main{
     background-color: rgba(74, 212, 212, 0.589);
 }   
 .list-container{
+    min-width: 20rem;
     flex: 1;
     padding: 1rem;
     display: flex;
@@ -80,6 +83,7 @@ main{
 }
 .tarjet{
     width: 15%;
+    min-width: 18rem;
     height: 13rem;
     background-color: yellow;
 }
@@ -109,12 +113,11 @@ main{
 }
 .prices-img{
     width: 23rem;
-    height: 30rem;
     object-fit: cover;
 }
 table{
     width: 23rem;
-    height: 30rem;
+    min-height: 25rem;
     text-align: center;
     background-color: aqua;
 }
@@ -130,10 +133,11 @@ td{
     background-color: yellow;
 }
 
-/*_____________________________ prices styles _____________________________*/
+/*_____________________________ footer styles _____________________________*/
 footer{
     padding: .3rem 1rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background-color: rgba(231, 32, 32, 0.582);
@@ -153,17 +157,40 @@ label{
     background-color: yellow;
 }
 #radio-yes{
-
+    
 }
 #radio-no{
-
+    
 }
 #suscribe{
     margin: 0 0 0 .5rem;
 }
 #button{
-
+    
 }
 #mail{
     background-color: brown;
+}
+
+/*_____________________________ @media styles _____________________________*/
+@media screen and (max-width: 940px) {
+    .main-content{
+        justify-content: center;
+    }  
+    
+    footer{
+        gap: .5rem;flex-direction: column;
+    }
+}
+@media screen and (max-width: 470px) {
+    header{
+        justify-content: center;
+    }
+    .prices-img{
+        width: 18rem;
+    }
+    table{
+        width: 18rem;
+        min-height: 20rem;
+    } 
 }
