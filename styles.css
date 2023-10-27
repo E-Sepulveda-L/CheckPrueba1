@@ -1,0 +1,169 @@
+/*_____________________________ general styles _____________________________*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+}
+img{
+    width: 300px;
+}
+header{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(218, 57, 57, 0.795)
+}
+.logo{
+    background-color: rgba(36, 221, 221, 0.63);
+}
+nav{
+    padding: .5rem;
+    background-color: rgb(212, 162, 96);
+}
+.ul-nav{
+    display: flex;
+    gap: 1rem;
+    background-color: aquamarine;
+}
+.li-nav{
+    padding: .3rem;
+    background-color: azure;
+}
+.a-nav{
+    background-color: bisque;
+}
+
+/*_____________________________ main styles _____________________________*/
+main{
+    padding: 1px;
+    background-color: antiquewhite;
+} 
+.main-content{
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(74, 212, 212, 0.589);
+}   
+.list-container{
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.733);
+}
+.list-title{
+    background-color: rgba(0, 0, 255, 0.637);
+}
+.ul-list{
+    background-color: rgba(0, 128, 0, 0.719);
+}
+.li-list{
+    margin: .5rem 0;
+    list-style: disc;
+    background-color: greenyellow;
+}
+.main-title{
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+}
+.tarjet{
+    width: 15%;
+    height: 13rem;
+    background-color: yellow;
+}
+.img-tarjet{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.p-tarjet{
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.534);
+}
+
+/*_____________________________ prices styles _____________________________*/
+.prices-section{
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+.prices-title{
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+}
+.prices-img{
+    width: 23rem;
+    height: 30rem;
+    object-fit: cover;
+}
+table{
+    width: 23rem;
+    height: 30rem;
+    text-align: center;
+    background-color: aqua;
+}
+tr{
+    background-color: green;
+}
+th{
+    width: 10rem;
+    height: 1.5rem;
+    background-color: greenyellow;
+}
+td{
+    background-color: yellow;
+}
+
+/*_____________________________ prices styles _____________________________*/
+footer{
+    padding: .3rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(231, 32, 32, 0.582);
+}
+.MH-footer{
+    background-color: rgb(12, 212, 219);
+}
+form{
+    padding: .5rem;
+    background-color: rgba(0, 68, 255, 0.705);
+}
+fieldset{
+    background-color: green;
+}
+label{
+    margin: 0 .5rem 0 0;
+    background-color: yellow;
+}
+#radio-yes{
+
+}
+#radio-no{
+
+}
+#suscribe{
+    margin: 0 0 0 .5rem;
+}
+#button{
+
+}
+#mail{
+    background-color: brown;
+}
