@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png" type="image/icon">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
@@ -73,13 +74,13 @@
     </section>
     <footer>
         <h3 class="MH-footer"> MindHub <span>Cohort N</span></h3>
-        <form action="show_data.html" method="get" target="_blank" name="">
+        <form action="show_data.html" method="get" target="_blank" name="form">
             <fieldset>
                 <legend>Have you ate here?</legend>
-                <label for="radio-yes">Yes<input id="radio-yes" type="radio"></label>
-                <label for="radio-no">No<input id="radio-no" type="radio"></label>
+                <label for="radio-yes">Yes<input id="radio-yes" name="yes" type="radio"></label>
+                <label for="radio-no">No<input id="radio-no" name="no" type="radio"></label>
                 <br>
-                <label for="suscribe">Subscribe: <input id="suscribe" type="text"></label>
+                <label for="suscribe">Subscribe: <input id="suscribe" name="mail" type="email"></label>
                 <input id="button" type="submit" value="Send">
             </fieldset>
         </form>
